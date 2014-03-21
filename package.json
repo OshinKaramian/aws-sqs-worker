@@ -1,0 +1,14 @@
+{
+  "name": "aws-sqs",
+  "description": "Scripts used to test pushing and pullings things to/from AWS SQS",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "async":"~0.2.9",
+    "optimist": "~0.6.0",
+    "fs-extra":"*",
+    "mkdirp":"*",
+    "aws-sdk": "*",
+    "batch-player-publish": "git+ssh://git@bithub.brightcove.com:videocloud/batch-player-publish-cli.git"
+  }
+}
